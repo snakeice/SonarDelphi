@@ -70,8 +70,8 @@
 
 	<properties>
 		<!--Version Fields-->
-                <sonarQubeMinVersion>6.7</sonarQubeMinVersion>
-                <sonar.version>6.7</sonar.version>
+                <sonarQubeMinVersion>7.9</sonarQubeMinVersion>
+                <sonar.version>7.9</sonar.version>
 		<sonarcobertura.version>1.4</sonarcobertura.version>
 		<antlr-runtime.version>3.4</antlr-runtime.version>
 		<slf4j.version>1.7.5</slf4j.version>
@@ -215,22 +215,6 @@
 				<groupId>org.antlr</groupId>
 				<artifactId>antlr3-maven-plugin</artifactId>
 				<version>3.5.2</version>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.10.4</version>
-				<executions>
-					<execution>
-						<id>attach-javadocs</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<source>1.8</source>
-				</configuration>
 			</plugin>
 			<plugin>
 				<artifactId>maven-dependency-plugin</artifactId>
